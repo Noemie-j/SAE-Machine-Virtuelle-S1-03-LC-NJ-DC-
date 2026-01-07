@@ -9,24 +9,25 @@
 }
 
 root {
-    --bleu-noir: #22222F;
-    --nav-bg: #d9b5ff;
-    --titre: #ffb76b;
+    --rose-pale: #F0EDEE;
+    --bleu-turquoise: #07393C;
+    --nav-bg: #2C666E;
+    --titre: #90DDF0;
 }
 
 html { /*Définission de la taille de police de base : rem*/
     font-size: 22px;
-    background-color: var(--bleu-noir, #22222F);
+    background-color: var(--rose-pale: #F0EDEE);
     z-index: 0;
-    font-family: "Oswald", Oswald, sans-serif;
-    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    /*color: ;*/
 }
 
 nav { /*navbar fixée*/
     z-index: 10;
     display: flex;
     justify-content: center;
-    background: var(--nav-bg, #d9b5ff);
+    background: var(--nav-bg: #2C666E);
     width: 100%;
     position: fixed;
     top: 0;
@@ -43,7 +44,7 @@ nav li { /*éléments de la navbar centrés*/
 }
 
 main { /*marge pour aérer*/
-    color: aliceblue;
+    color: #90DDF0;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 100px;
