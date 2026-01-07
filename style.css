@@ -18,7 +18,7 @@ root {
 html { /*Définission de la taille de police de base : rem*/
     font-size: 22px;
      z-index: 0;
-    background-color: var(--rose-pale: #F0EDEE);
+    background-color:#F0EDEE;
     font-family: "Montserrat", sans-serif;
     color:#F0EDEE ;
 }
@@ -27,7 +27,7 @@ nav { /*navbar fixée*/
     z-index: 10;
     display: flex;
     justify-content: center;
-    background: var(--nav-bg: #2C666E);
+    background:#2C666E;
     width: 100%;
     position: fixed;
     top: 0;
@@ -55,7 +55,47 @@ h1 {
     display: flex;
     font-size: 1.3rem;
     font-weight: bold;
-    color: var(--bleu clair: #90DDF0);
+    color: #90DDF0;
     text-transform: uppercase;
     justify-content: center;
 }
+
+p {
+    display: block;
+    margin: 20px;
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+main ul { /*main pour être sûrs de ne pas toucher aux ul de la nav*/
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    margin: 30px;
+}
+
+main ul > li { /*main pour être sûrs de ne pas toucher aux ul de la nav*/
+    list-style-position: inside;
+    list-style-type: " ▷ ";
+    font-size: 0.9em;
+    padding-left: 5px;
+    border-left: #2C666E;
+}
+
+footer {
+    color:#07393C;
+    z-index: 10;
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: end;
+    margin: 0;
+    background-color:#2C666E;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    bottom: 0;
+}
+
+
+
