@@ -25,5 +25,28 @@
     </div>
   </nav>
 
+  <h2>Création d'un super utilisateur</h2>
+  <hr>
+  <p>Ouvrez le terminal et effectuez les commandes suivantes : </p>
+  <ul>
+    <li>sudo adduser [nom]</li>
+    <p> Cela vous demandera d'entrer votre mot de passe</p>
+    <p> Cette commande va alors créer un utilisateur qui sera "normal" (sans droit en plus)</p>
+    <li> sudo usermod -aG sudo [nom]</li>
+    <p> Cette commande donnera les droits administrateurs à cet utilisateur</p>
+  </ul>
+  <img src="../Image/2_config_admin.png">
+  <hr>
+
+  <h2>Création d'un utilisateur</h2>
+  <hr>
+  <p> Il suffit de faire la même manip sans donner les droits administrateurs et à la prochaine connexion vous aurez l'affichage suivant</p>
+  <img src="../Image/2_ecran_accueil.png">
+  <hr>
+  <h2>Personnalisation d'une invite de commande</h2>
+  <p>L'invite de commande est contenu dans une varaible nommé PS1 (souvent), il suffit simplement de la changer</p>
+  <p>Si vous voulez que la modification soit permanente, il suffit d'exporter cette commande dans le bashrc</p>
+  <img src="../Image/2_personnalisation.png">
+
 </body>
 </html>
