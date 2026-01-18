@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<h1>Les questions à traitées</h1>
+
 <nav>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -30,7 +32,25 @@
   </nav>
 </nav>
 
+<h3>Définition de la virtualisation</h3>
+<hr>
+<p>La virtualisation c'est ce qui permet de simuler une machine entière différente de la machine hôte, afin de pouvoir effectuer plusieurs tâches sur des systèmes d'exploitations différents, mais sur une même machine</p>
 
+<h3>Différence entre émulateur, simulateur et outil de virtualisation</h3>
+<hr>
+<p>La simulation, en général, est une représentation fictive de la réalité.</p>
+<p>Il s’agit d’imiter une situation. Un peu plus ambitieuse que la simulation, l’émulation permet non pas de modéliser, mais bel et bien de reproduire à l’identique le comportement d’un logiciel et son architecture matérielle.</p>
+<p>Ce terme n'apparaît qu'en informatique. Les outils de virtualisations quant à eux ne se contentent pas de reproduire les logiciels, mais bien de les appliquer, juste en leur créant un espace virtuel limité qu'ils ne peuvent dépasser.</p>
+
+<h3>Type de virtualisation pour les environnements VirtualBox, VMWare workstation et Stratus</h3>
+<hr>
+<p>l’hyperviseur de type 1, ou bare metal : il opère directement sur le hardware, et devient de ce fait l’outil de contrôle du système d’exploitation. Les OS invités s’exécutent alors par dessus cet hyperviseur.</p>
+<p>Exemples d’hyperviseurs de type 1 : vSphere de l’éditeur VMware, ou KVM, l’hyperviseur libre pour Linux. (j'ai utilisé vmWare)
+<p>l’hyperviseur de type 2, ou host metal : il fonctionne à l’intérieur d’un autre système d’exploitation. </p>
+<p>Exemple d’hyperviseur de type 2 : VirtualBox, logiciel Open Source édité par Oracle.</p>
+
+<h3>Lieu de sauvegarde</h3>
+<p>Le lieu de sauvegarde est située dans le volume du système d'exploitation</p>
 
 </body>
 </html>
